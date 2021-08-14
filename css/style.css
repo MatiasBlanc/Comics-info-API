@@ -1,0 +1,53 @@
+.cards__row {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.comic__card {
+    display: flex;
+    height: 200px;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px #aaaaaaaa;
+    margin: 50px 0;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.comic__info {
+    text-align: center;
+    width: 80%;
+}
+
+.comic--name {
+    font-size: 18px;
+    padding-top: 0px;
+}
+
+.comic--link {
+    color: #222;
+    cursor: pointer;
+}
+
+.comic--description {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+.img__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+
+.comic--img {
+    width: 100%;
+}
+
+.comic--price {
+    margin: 15px;
+}
