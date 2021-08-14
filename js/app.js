@@ -1,4 +1,4 @@
-const API_URL = 'http://gateway.marvel.com/v1/public/comics?ts=1&apikey=5f31ad52ccd8b08d766afcbb3503e032&hash=c9a824b4aca58463255beb56becbe9a7';
+const API_URL = 'https://gateway.marvel.com/v1/public/comics?ts=1&apikey=5f31ad52ccd8b08d766afcbb3503e032&hash=c9a824b4aca58463255beb56becbe9a7';
 const container = document.getElementById('cardRow');
 const cardTemplate = document.getElementById('cardTemplate').content;
 
